@@ -75,6 +75,16 @@ const showMillionaries = () => {
   updataDOM(filteredData);
 }
 
+const sortByRichest = () => {
+  data.sort( (a,b) => {
+    return b.money - a.money
+  });
+
+  updataDOM();
+}
+
 addUserBth.addEventListener('click', getRandomUser);
 doubleBth.addEventListener('click', doubleMoney);
 showMillionariesBtn.addEventListener('click', showMillionaries);
+
+sortBth.addEventListener('click', sortByRichest);
