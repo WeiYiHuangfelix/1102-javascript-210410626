@@ -9,7 +9,7 @@ console.log('tku60Links', tku60Text);
 const heading = document.querySelector('#heading');
 const iframeContainer = document.querySelector('.iframe-container');
 const showImages = document.querySelector('.show-images');
-const tkuImages = document.querySelector('tku-images');
+const tkuImages = document.querySelector('.tku-images');
 console.log('tkuImages', tkuImages);
 
 const changeVideo = (index) => {
@@ -27,6 +27,52 @@ const changeVideo = (index) => {
           `;
         break;
         case 2:
+            iframeContainer.innerHTML = `
+            <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/MRWX49Furew"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          `;
+        break;
+        case 3:
+            iframeContainer.innerHTML = `
+            <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/METhdbL_iMw"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          `;
+        break;
+        case 4:
+            iframeContainer.innerHTML = `
+            <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/ZyDbq-lEKTo"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          `;
+        break;
+        case 5:
+            iframeContainer.innerHTML = `
+            <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/NlsrJbVvjaA"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          `;
         break;
     }
 }
