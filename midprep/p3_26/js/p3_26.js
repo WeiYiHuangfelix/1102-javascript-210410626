@@ -78,7 +78,9 @@ const changeVideo = (index) => {
 }
 
 const changeColor = () => {
-    heading.getElementsByClassName.backgoundColor = '#9AADBF'
+    heading.style.backgroundColor = '#9AADBF'
+    main.style.backgroundColor = '#966'
+    section.style.backgroundColor = '#588'
 }
 
 const addTku60Text = () => {
