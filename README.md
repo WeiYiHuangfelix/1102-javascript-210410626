@@ -19,3 +19,5 @@
 [w09 md](https://github.com/WeiYiHuangfelix/1102-javascript-210410626/blob/main/demo/md/w09/w09.md)
 
 [w11 md](https://github.com/WeiYiHuangfelix/1102-javascript-210410626/blob/main/demo/md/w11/w11.md)
+
+[w12 md](https://github.com/WeiYiHuangfelix/1102-javascript-210410626/blob/main/demo/md/w12/w1_26.md)
