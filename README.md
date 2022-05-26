@@ -23,3 +23,5 @@
 [w12 md](https://github.com/WeiYiHuangfelix/1102-javascript-210410626/blob/main/demo/md/w12/w1_26.md)
 
 [w13 md](https://github.com/WeiYiHuangfelix/1102-javascript-210410626/blob/main/demo/md/w13/w13-26.md)
+
+[w14 md](https://github.com/WeiYiHuangfelix/1102-javascript-210410626/blob/main/demo/md/w13/w13-26.md)
