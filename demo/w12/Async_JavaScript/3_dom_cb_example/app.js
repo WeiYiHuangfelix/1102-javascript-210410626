@@ -12,9 +12,9 @@ btn.addEventListener('click', () => {
         })
         setTimeout(() => {
             helloworldBlue.style.color = 'blue';
-        })
-    });
-})
+        },1000)
+    },3000);
+},5000)
 
 // const changeColor = function(attribute, color, time) {
 //     return new Promise(function(resolve, reject) {

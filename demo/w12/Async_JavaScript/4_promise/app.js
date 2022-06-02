@@ -1,5 +1,5 @@
 const promise = new Promise((resolve, reject) => { //成功，失敗
-    let value = false;
+     let value = true;
     if (value) {
       resolve({ id: 1, name: 'john' });
     } else {
