@@ -23,12 +23,8 @@ const getDataAsync = async url => {
 
 const showData = data => {
   let allData = data
-    .map(
-      el =>
-        `<div class="person"><strong>${el.name}</strong> ${formatMoney(
-          el.money
-        )}</div>`
-    )
+    .map(el =>`<div class="person"><strong>${el.name}</strong> ${formatMoney(el.money)}</div>`)
+    
     .join('');
 
   btn.addEventListener('click', () => {

@@ -2,7 +2,7 @@ const textEl = document.createElement('p');
 
 const btn = document.querySelector('.btn');
 const div = document.querySelector('.div');
-const url = 'api/people.json';
+const url = 'api/e.json';
 
 const getData = url => {
   const request = new XMLHttpRequest();
@@ -16,7 +16,7 @@ const getData = url => {
     const data = JSON.parse(request.responseText);
 
     data.forEach(el =>
-      div.insertAdjacentHTML('beforebegin', `<p>${el.name}</p>`)
+      div.insertAdjacentHTML('beforebegin', `<p>${el.name}</p><img src="${el.url}" width="${el.width}" height="${el.height}" box_count="${el.box_count}">`)
     );
 
     console.log(data);
